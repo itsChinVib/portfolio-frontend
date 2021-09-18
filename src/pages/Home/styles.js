@@ -4,23 +4,38 @@ export const homePageStyles = makeStyles(theme => ({
   introName: {
     fontWeight: 'bold',
     fontSize: '3rem',
-    margin: '70px auto 30px auto',
+    padding: '0 30px 30px 30px',
     textAlign: 'center',
   },
   introOneLine: {
     fontSize: '1.5rem',
-    margin: '30px auto',
+    padding: '0 30px 30px 30px',
+    textAlign: 'center',
   },
   briefHi: {
     fontSize: '2rem',
     fontWeight: 'bold',
-    textAlign: 'center',
     color: theme.palette.common.white,
+    padding: '40px 40px 0px 40px',
   },
   briefContent: {
     fontSize: '1.25rem',
-    margin: '30px auto',
     maxWidth: 820,
     color: theme.palette.common.white,
+    padding: 40,
+  },
+  skillContainer: {
+    padding: 40,
+  },
+  skillTitleWrapper: {
+    padding: 40,
+    textAlign: 'center',
+  },
+  skillTitle: {
+    fontSize: '2rem',
+    fontWeight: 'bold',
+  },
+  skillContainerMobile: {
+    padding: 10,
   },
 }));

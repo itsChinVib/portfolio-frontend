@@ -7,6 +7,7 @@ import { componentStyle } from './styles';
 import { HeaderComponent } from 'components/Layout/Header';
 import { FooterComponent } from 'components/Layout/Footer';
 import { HeroComponent } from 'components/common/Hero';
+import { SkillListItem } from 'components/SkillListItem';
 
 const ComponentItem = ({ name, Component, componentProps }) => {
   const classes = componentStyle();
@@ -26,6 +27,25 @@ export const ComponentListPage = () => {
   const classes = componentStyle();
 
   const components = [
+    {
+      name: 'SkillListItem',
+      Component: SkillListItem,
+      componentProps: {
+        title: 'Advanced',
+        subtitle: 'Skill with near deep experience',
+        items: ['Python', 'Javascript', 'Backend Development'],
+      },
+    },
+    {
+      name: 'SkillListItem Secondary',
+      Component: SkillListItem,
+      componentProps: {
+        title: 'Advanced',
+        subtitle: 'Skill with near deep experience',
+        items: ['Python', 'Javascript', 'Backend Development'],
+        secondary: true,
+      },
+    },
     {
       name: 'Header',
       Component: HeaderComponent,

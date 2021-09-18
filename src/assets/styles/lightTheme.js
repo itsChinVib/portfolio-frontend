@@ -11,7 +11,7 @@ const lightPalette = {
     main: '#2ec4b6', // Green
   },
   common: {
-    white: '#fdfffc', // White
+    white: '#ffffff', // White
     black: '#011627',
   },
 };

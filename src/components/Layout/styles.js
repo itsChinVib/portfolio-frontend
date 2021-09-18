@@ -14,6 +14,7 @@ export const headerStyles = makeStyles(theme => ({
     flexDirection: 'row',
     justifyContent: 'space-between',
     alignItems: 'center',
+    padding: 10,
   },
   navbarLink: {
     display: 'flex',
@@ -21,8 +22,8 @@ export const headerStyles = makeStyles(theme => ({
     textAlign: 'center',
     padding: 5,
   },
-  thanks:{
-    padding: 10
+  thanks: {
+    padding: 10,
   },
   mobileThanks: {
     textAlign: 'center',
