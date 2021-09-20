@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import {
   AppBar,
@@ -17,23 +17,26 @@ import GitHubIcon from '@material-ui/icons/GitHub';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import Brightness4Icon from '@material-ui/icons/Brightness4';
 import Brightness7Icon from '@material-ui/icons/Brightness7';
+// import AssessmentIcon from '@material-ui/icons/Assessment';
 
 import CVLogo from 'assets/images/cvlogo-900.png';
 import { headerStyles } from './styles';
 import { toggleTheme } from 'redux-store/actions/settings';
+import { SideBarComponent } from 'components/Sidebar';
 
 export const HeaderComponent = ({ appBarProps, toolBarProps }) => {
   const classes = headerStyles();
-
   const { width } = useWindowSize();
-  let mobile = width < 512;
   const dispatch = useDispatch();
   const theme = useSelector(({ settings }) => settings.uiTheme, shallowEqual);
+  const [show, setShow] = useState(false);
+
+  let mobile = width < 512;
 
   return (
     <>
       <AppBar
-        position="transparent"
+        position={'transparent'}
         color={'transparent'}
         elevation={0}
         {...appBarProps}
@@ -91,7 +94,7 @@ export const HeaderComponent = ({ appBarProps, toolBarProps }) => {
                 </>
               )}
               <Tooltip title="Menu" aria-label="menu">
-                <IconButton size="large">
+                <IconButton onClick={() => setShow(!show)} size="large">
                   <MenuIcon fontSize="large" />
                 </IconButton>
               </Tooltip>
@@ -106,6 +109,7 @@ export const HeaderComponent = ({ appBarProps, toolBarProps }) => {
             Hey There! Thanks for Visiting :)
           </Typography>
         </Container>
+        <SideBarComponent show={show} onHide={() => setShow(false)} />
       </AppBar>
     </>
   );

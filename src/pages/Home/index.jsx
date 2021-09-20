@@ -1,6 +1,6 @@
 import React from 'react';
 import { useWindowSize } from 'react-use';
-import { Typography, Grid, Container } from '@material-ui/core';
+import { Typography, Grid } from '@material-ui/core';
 
 import { HeroComponent } from 'components/common/Hero';
 import { SkillListItem } from 'components/SkillListItem';

@@ -1,13 +1,15 @@
-import React from 'react';
+import React, { useState } from 'react';
 import clsx from 'clsx';
 import _ from 'lodash';
-import { Grid, Typography } from '@material-ui/core';
+import { Grid, IconButton, Typography } from '@material-ui/core';
+import MenuIcon from '@material-ui/icons/Menu';
 
 import { componentStyle } from './styles';
 import { HeaderComponent } from 'components/Layout/Header';
 import { FooterComponent } from 'components/Layout/Footer';
 import { HeroComponent } from 'components/common/Hero';
 import { SkillListItem } from 'components/SkillListItem';
+import { SideBarComponent } from 'components/Sidebar';
 
 const ComponentItem = ({ name, Component, componentProps }) => {
   const classes = componentStyle();
@@ -27,6 +29,20 @@ export const ComponentListPage = () => {
   const classes = componentStyle();
 
   const components = [
+    {
+      name: 'SideBar',
+      Component: () => {
+        const [show, setShow] = useState(false);
+        return (
+          <>
+            <IconButton onClick={() => setShow(!show)} size="large">
+              <MenuIcon fontSize="large" />
+            </IconButton>
+            <SideBarComponent show={show} onHide={() => setShow(false)} />
+          </>
+        );
+      },
+    },
     {
       name: 'SkillListItem',
       Component: SkillListItem,
