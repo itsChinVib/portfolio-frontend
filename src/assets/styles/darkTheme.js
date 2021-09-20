@@ -3,7 +3,7 @@ import _ from 'lodash';
 /**
  * Dark Palette
  */
- const darkPalette = {
+const darkPalette = {
   primary: {
     main: '#011627', // Blue
   },

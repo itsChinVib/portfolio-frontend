@@ -1,8 +1,8 @@
-import { actionTypes } from "../actionTypes";
+import { actionTypes } from '../actionTypes';
 
 /**
  * Toggle Theme Action
  */
 export const toggleTheme = () => dispatch => {
-	dispatch({ type: actionTypes.TOGGLE_THEME });
+  dispatch({ type: actionTypes.TOGGLE_THEME });
 };
