@@ -13,8 +13,8 @@ function App() {
   return (
     <>
       <Helmet>
-        <title>Chinmay Vibhute - chinmayvibhute.me</title>
-        <link rel="canonical" href="https://chinmayvibhute.me" />
+        <title>Chinmay Vibhute - chinmayvib.dev</title>
+        <link rel="canonical" href="https://chinmayvib.dev" />
         <meta name="description" content="Chinmay Vibhute's Website" />
       </Helmet>
 

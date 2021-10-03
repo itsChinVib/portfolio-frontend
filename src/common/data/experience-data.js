@@ -401,7 +401,7 @@ export const personalProjects = [
     date: 'Nov 2018',
     description:
       'Built a Bulletin Board using ReactJS. The Board pre-populates 50 notes with data from the api of a lorem ipsum generator. The notes are draggabe and rearrangable. This project was a learning project to master concepts of ReactJS like states, props, components, children.',
-    link: { label: 'Link', url: 'https://chinmayvibhute.me/react-bulletin/' },
+    link: { label: 'Link', url: 'https://chinvib66.github.io/react-bulletin/' },
     techUsed: ['React', 'Node.js', 'REST APIs'],
     relatedTerms: ['Frontend Development', 'API Integration'],
   },
