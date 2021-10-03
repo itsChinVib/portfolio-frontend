@@ -24,6 +24,7 @@ export const InternshipItem = ({
     <div
       className={clsx(classes.componentWrapper, {
         [classes.secondary]: secondary,
+        [classes.mobile]: mobile,
       })}
     >
       <div className={classes.headingWrapper}>

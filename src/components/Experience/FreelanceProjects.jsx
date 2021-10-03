@@ -22,6 +22,7 @@ export const FreeLanceProject = ({
     <div
       className={clsx(classes.componentWrapper, {
         [classes.secondary]: secondary,
+        [classes.mobile]: mobile,
       })}
     >
       <div className={classes.headingWrapper}>
