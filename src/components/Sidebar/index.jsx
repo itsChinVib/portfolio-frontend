@@ -51,19 +51,24 @@ export const SideBarComponent = ({ children, show, onHide }) => {
                 </Typography>
               </div>
               <div>
-                <Link to={'internships'} onClick={hideBar}>
+                <Link to={'work-experience'} onClick={hideBar}>
                   <Typography className={classes.linkTextWrapper}>
-                    Internships
-                  </Typography>
-                </Link>
-                <Link to={'os-contri'} onClick={hideBar}>
-                  <Typography className={classes.linkTextWrapper}>
-                    Open Source Contributions
+                    Work Experience
                   </Typography>
                 </Link>
                 <Link to={'projects'} onClick={hideBar}>
                   <Typography className={classes.linkTextWrapper}>
                     Projects
+                  </Typography>
+                </Link>
+                <Link to={'topcoder'} onClick={hideBar}>
+                  <Typography className={classes.linkTextWrapper}>
+                    Topcoder Profile
+                  </Typography>
+                </Link>
+                <Link to={'oss-contributions'} onClick={hideBar}>
+                  <Typography className={classes.linkTextWrapper}>
+                    Open Source Contributions
                   </Typography>
                 </Link>
                 {/* <Link to={'freelance'} onClick={hideBar}>

@@ -1,5 +1,8 @@
+import { ComingSoonPage } from 'pages/ComingSoon';
 import { ComponentListPage } from 'pages/ComponentList';
 import { HomePage } from 'pages/Home';
+import { ProjectsPage } from 'pages/Projects';
+import { WorkExperiencePage } from 'pages/WorkExperience';
 
 export const routes = [
   {
@@ -14,12 +17,30 @@ export const routes = [
     exact: true,
     component: HomePage,
   },
-  // {
-  //   name: 'Projects',
-  //   path: '/projects',
-  //   exact: true,
-  //   component: ProjectsPage,
-  // },
+  {
+    name: 'Work Experience',
+    path: '/work-experience',
+    exact: true,
+    component: WorkExperiencePage,
+  },
+  {
+    name: 'Projects',
+    path: '/projects',
+    exact: true,
+    component: ProjectsPage,
+  },
+  {
+    name: 'Topcoder',
+    path: '/topcoder',
+    exact: true,
+    component: ComingSoonPage,
+  },
+  {
+    name: 'Open Source Contributions',
+    path: '/oss-contributions',
+    exact: true,
+    component: ComingSoonPage,
+  },
   //   {
   //     name: "Blog",
   //     path: "/blog",

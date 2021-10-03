@@ -10,6 +10,8 @@ import { FooterComponent } from 'components/Layout/Footer';
 import { HeroComponent } from 'components/common/Hero';
 import { SkillListItem } from 'components/SkillListItem';
 import { SideBarComponent } from 'components/Sidebar';
+import { internships } from 'common/data/experience-data';
+import { InternshipItem } from 'components/Experience/Internship';
 
 const ComponentItem = ({ name, Component, componentProps }) => {
   const classes = componentStyle();
@@ -29,6 +31,13 @@ export const ComponentListPage = () => {
   const classes = componentStyle();
 
   const components = [
+    {
+      name: 'InternshipItem',
+      Component: () => {
+        const i = internships[0];
+        return <InternshipItem {...i} />;
+      },
+    },
     {
       name: 'SideBar',
       Component: () => {

@@ -4,7 +4,7 @@ import { Typography, Grid } from '@material-ui/core';
 
 import { HeroComponent } from 'components/common/Hero';
 import { SkillListItem } from 'components/SkillListItem';
-import { ExperienceData } from 'common/data/experience-data';
+import { frontPageSkillsExpertise } from 'common/data/experience-data';
 
 import { homePageStyles } from './styles';
 import clsx from 'clsx';
@@ -58,25 +58,26 @@ export const HomePage = () => {
               Skills and Expertise
             </Typography>
             <Typography>
-              List of Skills I'm familiar with and have some Experience
+              {/** Edit regularly */}
+              List of Skills I got familiar with during my few years of college
             </Typography>
           </div>
           <Grid container>
             <SkillListItem
               title={'Intermediate'}
               subtitle={''}
-              items={ExperienceData.skillExpertise.intermediate}
+              items={frontPageSkillsExpertise.intermediate}
             />
             <SkillListItem
               title={'Advanced'}
               subtitle={''}
-              items={ExperienceData.skillExpertise.advanced}
+              items={frontPageSkillsExpertise.advanced}
               secondary
             />
             <SkillListItem
               title={'Competent'}
               subtitle={''}
-              items={ExperienceData.skillExpertise.competent}
+              items={frontPageSkillsExpertise.competent}
             />
           </Grid>
         </div>

@@ -5,6 +5,7 @@ import { actionTypes } from '../actionTypes';
  */
 const settingsInitialState = {
   uiTheme: 'light',
+  showCertificates: false,
 };
 
 /**
@@ -19,6 +20,11 @@ export const settingsReducer = (
       return {
         ...state,
         uiTheme: state.uiTheme === 'light' ? 'dark' : 'light',
+      };
+    case actionTypes.TOGGLE_SHOW_CERTI:
+      return {
+        ...state,
+        showCertificates: !state.showCertificates,
       };
     default:
       return state;
