@@ -4,7 +4,7 @@ import { actionTypes } from '../actionTypes';
  * Settings Redux Store Initial State
  */
 const settingsInitialState = {
-  uiTheme: 'light',
+  uiTheme: 'dark',
   showCertificates: false,
 };
 
