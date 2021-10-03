@@ -1,6 +1,6 @@
 import React from 'react';
 import { useWindowSize } from 'react-use';
-import { Typography, Grid } from '@material-ui/core';
+import { Typography, Grid, Container } from '@material-ui/core';
 
 import { HeroComponent } from 'components/common/Hero';
 import { SkillListItem } from 'components/SkillListItem';
@@ -81,6 +81,32 @@ export const HomePage = () => {
             />
           </Grid>
         </div>
+      </HeroComponent>
+      <HeroComponent secondary flexCenter>
+        <Typography className={classes.expHighlightsTitle}>
+          Experience Highlights
+        </Typography>
+        <Container className={classes.textCenter}>
+          <ul className={classes.expHighlightList}>
+            <li className={classes.expHighlightItem}>
+              Google Summer of Code 2021 @ Dept of BioInformatics, Emory
+              University School of Medicine
+            </li>
+            <li className={classes.expHighlightItem}>
+              Software Development Intern @ GE Healthcare
+            </li>
+            <li className={classes.expHighlightItem}>
+              Edgenet Shoe Detection and Classification Application (1st Place
+              Solution) @ Topcoder
+            </li>
+            <li className={classes.expHighlightItem}>
+              Smallcast: Stop Searching, Start Listening!! on PlayStore
+            </li>
+            <li className={classes.expHighlightItem}>
+              Deep Learning Specialization @ Deeplearning.ai (via Coursera)
+            </li>
+          </ul>
+        </Container>
       </HeroComponent>
     </div>
   );

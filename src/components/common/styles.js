@@ -8,8 +8,10 @@ export const heroStyles = makeStyles(theme => ({
     display: 'flex',
     justifyContent: 'center',
     alignItems: 'center',
+    flexDirection: 'column',
   },
   secondaryBack: {
     backgroundColor: theme.palette.secondary.main,
+    color: theme.palette.common.white,
   },
 }));

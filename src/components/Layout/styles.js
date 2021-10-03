@@ -32,7 +32,22 @@ export const headerStyles = makeStyles(theme => ({
 }));
 
 export const footerStyles = makeStyles(theme => ({
+  footer: {
+    minHeight: '20vh',
+    display: 'flex',
+    alignItems: 'center',
+  },
   icon: {
     maxHeight: 72,
+  },
+  linkList: {
+    justifyContent: 'right',
+  },
+  textCenter: {
+    textAlign: 'center',
+  },
+
+  gridPadding: {
+    padding: '25px 0',
   },
 }));

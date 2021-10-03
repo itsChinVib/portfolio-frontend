@@ -38,4 +38,16 @@ export const homePageStyles = makeStyles(theme => ({
   skillContainerMobile: {
     padding: 10,
   },
+  expHighlightsTitle: { fontSize: '2rem', fontWeight: 'bold', padding: 30 },
+
+  expHighlightItem: {
+    fontSize: 24,
+  },
+  expHighlightList: {
+    margin: 10,
+    textAlign: 'left',
+  },
+  textCenter: {
+    textAlign: 'center',
+  },
 }));
