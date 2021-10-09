@@ -9,6 +9,9 @@ export const internshipItemStyles = makeStyles(theme => ({
     margin: '10px 20px',
     padding: 40,
   },
+  mobileComponentWrapper: {
+    padding: 20,
+  },
   secondary: {
     backgroundColor: theme.palette.secondary.main,
   },
@@ -47,6 +50,9 @@ export const freelanceProjectStyles = makeStyles(theme => ({
     borderColor: theme.palette.secondary.main,
     margin: '10px 20px',
     padding: 40,
+  },
+  mobileComponentWrapper: {
+    padding: 20,
   },
   secondary: {
     backgroundColor: theme.palette.secondary.main,
@@ -87,6 +93,9 @@ export const projectStyles = makeStyles(theme => ({
     margin: '10px 20px',
     padding: 40,
   },
+  mobileComponentWrapper: {
+    padding: 20,
+  },
   secondary: {
     backgroundColor: theme.palette.secondary.main,
   },
@@ -125,6 +134,7 @@ export const expTypeHeadingStyles = makeStyles(theme => ({
     display: 'flex',
     justifyContent: 'center',
     alignItems: 'center',
+    textAlign: 'center',
   },
   secondaryBack: {
     backgroundColor: theme.palette.secondary.main,

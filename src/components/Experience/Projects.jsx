@@ -23,6 +23,7 @@ export const ProjectItem = ({
       className={clsx(classes.componentWrapper, {
         [classes.secondary]: secondary,
         [classes.mobile]: mobile,
+        [classes.mobileComponentWrapper]: mobile,
       })}
     >
       <div className={classes.headingWrapper}>

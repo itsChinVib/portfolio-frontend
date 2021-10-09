@@ -45,3 +45,7 @@ a {
 a:visited {
   color: inherit;
 }
+
+ul {
+  padding-left: 25px;
+}

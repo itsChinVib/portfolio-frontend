@@ -50,4 +50,9 @@ export const footerStyles = makeStyles(theme => ({
   gridPadding: {
     padding: '25px 0',
   },
+  colVerticalCenter: {
+    display: 'flex',
+    flexDirection: 'column',
+    justifyContent: 'center',
+  },
 }));

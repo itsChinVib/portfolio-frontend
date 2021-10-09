@@ -66,14 +66,9 @@ export const SideBarComponent = ({ children, show, onHide }) => {
                     Topcoder Profile
                   </Typography>
                 </Link>
-                <Link to={'oss-contributions'} onClick={hideBar}>
+                {/* <Link to={'oss-contributions'} onClick={hideBar}>
                   <Typography className={classes.linkTextWrapper}>
                     Open Source Contributions
-                  </Typography>
-                </Link>
-                {/* <Link to={'freelance'} onClick={hideBar}>
-                  <Typography className={classes.linkTextWrapper}>
-                    Freelancing Projects
                   </Typography>
                 </Link> */}
               </div>

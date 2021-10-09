@@ -12,7 +12,11 @@ export const FooterComponent = () => {
     <footer className={classes.footer}>
       <Container>
         <Grid container className={classes.textCenter}>
-          <Grid md={3} xs={12} className={classes.gridPadding}>
+          <Grid
+            md={3}
+            xs={3}
+            className={clsx(classes.gridPadding, classes.colVerticalCenter)}
+          >
             <Tooltip title="Home">
               <Link to={''} className={classes.navbarLink}>
                 <img
@@ -24,11 +28,15 @@ export const FooterComponent = () => {
             </Tooltip>
             <Typography>Chinmay Vibhute</Typography>
           </Grid>
-          <Grid md={5} xs={12} className={classes.gridPadding} />
+          <Grid md={5} xs={1} className={classes.gridPadding} />
           <Grid
             md={3}
-            xs={12}
-            className={clsx(classes.linkList, classes.gridPadding)}
+            xs={8}
+            className={clsx(
+              classes.linkList,
+              classes.gridPadding,
+              classes.colVerticalCenter
+            )}
           >
             <Link to={'work-experience'}>
               <Typography className={classes.linkTextWrapper}>
@@ -45,11 +53,11 @@ export const FooterComponent = () => {
                 Topcoder Profile
               </Typography>
             </Link>
-            <Link to={'oss-contributions'}>
+            {/* <Link to={'oss-contributions'}>
               <Typography className={classes.linkTextWrapper}>
                 Open Source Contributions
               </Typography>
-            </Link>
+            </Link> */}
           </Grid>
         </Grid>
       </Container>
