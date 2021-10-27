@@ -17,7 +17,7 @@ import GitHubIcon from '@material-ui/icons/GitHub';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import Brightness4Icon from '@material-ui/icons/Brightness4';
 import Brightness7Icon from '@material-ui/icons/Brightness7';
-// import AssessmentIcon from '@material-ui/icons/Assessment';
+import AssignmentIcon from '@material-ui/icons/Assignment';
 
 import CVLogo from 'assets/images/cvlogo-900.png';
 import { headerStyles } from './styles';
@@ -55,6 +55,13 @@ export const HeaderComponent = ({ appBarProps, toolBarProps }) => {
               </Tooltip>
             </div>
             <div className={classes.navbarLink}>
+              <Tooltip title="Work Experience">
+                <Link to={'work-experience'}>
+                  <IconButton size="large">
+                    <AssignmentIcon fontSize="large" />
+                  </IconButton>
+                </Link>
+              </Tooltip>
               {!mobile && (
                 <>
                   <a

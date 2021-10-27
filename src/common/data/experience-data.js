@@ -415,3 +415,157 @@ export const personalProjects = [
     relatedTerms: ['Fullstack Development', 'Backend Development'],
   },
 ];
+
+export const tcChType = {
+  data: 'data',
+  dev: 'dev',
+  f2f: 'f2f',
+};
+
+export const topcoderProjects = [
+  {
+    name: 'Olive Build and Distribute RN App using MS App Center',
+    date: '4 Oct 2021',
+    type: tcChType.f2f,
+    links: [
+      {
+        label: 'Link',
+        url: 'https://www.topcoder.com/challenges/92a2db6c-9735-4cf8-bce1-8ac0d1516f47',
+        hide: false,
+      },
+    ],
+    techUsed: ['Android', 'iOS', 'React Native'],
+    relatedTerms: [
+      'Deployment',
+      'PlayStore',
+      'Apple',
+      'App Store',
+      'App Center',
+    ],
+    description: [
+      "Documented and Demonstrated process of deploying React Native App using Microsoft App Center's Build, Deployment and Distribution Features",
+    ],
+  },
+  {
+    name: 'Human Params Detector ML and Web App',
+    date: '10 Sept 2021 - 3 Oct 2021',
+    type: tcChType.dev,
+    links: [
+      {
+        label: 'Link',
+        url: 'https://www.topcoder.com/challenges/46fc6a80-57ee-4581-ac57-8e520152bf45',
+        hide: false,
+      },
+    ],
+    techUsed: [
+      'PyTorch',
+      'Tensorflow',
+      'React',
+      'Django',
+      'nginx',
+      'Microservices',
+      'PostgreSQL',
+      'Machine Learning',
+      'Deep Learning',
+    ],
+    relatedTerms: [
+      'Full Stack Development',
+      'Backend Development',
+      'Computer Vision',
+      'Object Detection',
+      'REST APIs',
+      'Edge',
+      '5G',
+    ],
+    description: [
+      'Developed a microservice based web application Human Parameters Detection using Nginx, Django, React, PyTorch, Tensorflow',
+      'Implemented DL models for Gender, Age, Sentiment and Bounding Box detection of humans in Image',
+      "Integrated AlefEdge's 5G Edge API with the app's backend for serving video advertisements based on detection results",
+    ],
+  },
+  {
+    name: 'MA2 Deploy Frontend in AWS S3 and Cloudfront',
+    date: '10 Aug 2021',
+    type: tcChType.f2f,
+    links: [
+      {
+        label: 'Link',
+        url: 'https://www.topcoder.com/challenges/b60c10bc-7aaf-4de9-95be-b10275d973d6',
+        hide: false,
+      },
+    ],
+    techUsed: ['AWS', 'AWS Cloudfront', 'AWS S3', 'Angular'],
+    relatedTerms: ['Frontend', 'Deployment'],
+    description: [
+      'Deployed Angular Frontend using Amazon S3 and used AWS Cloudfront for distribution',
+      'Documented the deployment process for the app and fixed build and deployment bugs in the application',
+    ],
+  },
+  {
+    name: 'MA2 Lambda Functions for Swagger Doc',
+    date: '29 Jul 2021',
+    type: tcChType.f2f,
+    links: [
+      {
+        label: 'Link',
+        url: 'https://www.topcoder.com/challenges/3a7758a5-6363-478f-ba74-2212dcb46579',
+        hide: false,
+      },
+    ],
+    techUsed: ['AWS', 'AWS Lambda', 'Swagger', 'Typescript', 'API Gateway'],
+    relatedTerms: ['Serverless', 'Deployment', 'AWS'],
+    description: [
+      'Deployed Backend using Typescript & lambda api to host Swagger Documentation as AWS Lambda Function',
+      'Prepared local deployment environment to host lambda functions for local development and testing',
+    ],
+  },
+  {
+    name: 'Shoe Image Classification and Detection Application',
+    date: '1 Jul 2021 - 19 Jul 2021',
+    type: tcChType.dev,
+    links: [
+      {
+        label: 'Link',
+        url: 'https://www.topcoder.com/challenges/0ba48ad2-6bda-406b-a430-ecdc4d6964aa',
+        hide: false,
+      },
+    ],
+    techUsed: [
+      'PyTorch',
+      'React',
+      'Django',
+      'Microservices',
+      'Machine Learning',
+      'Deep Learning',
+    ],
+    relatedTerms: [
+      'Full Stack Development',
+      'Backend Development',
+      'Computer Vision',
+      'Object Detection',
+      'gRPC',
+    ],
+    description: [
+      'Designed and developed a microservice based full-stack application for shoe image classification and detection',
+      'Integrated Efficient Net based classification model into backend and developed image pre-processing and batch processing handlers',
+      'Fine-tuned YOLOv5 based object detection and localization model on private shoe dataset achieving mAP of 0.79',
+    ],
+  },
+  {
+    name: 'Task Marketplace - Micro Frontend App',
+    date: '30 Nov 2020 - 2 Dec 2020',
+    type: tcChType.f2f,
+    links: [
+      {
+        label: 'Link',
+        url: 'https://www.topcoder.com/challenges/098dff71-6645-4296-81ca-e5563dd61dd6',
+        hide: false,
+      },
+    ],
+    techUsed: ['React', 'Single SPA', 'Micro Frontends', 'Typescript'],
+    relatedTerms: ['Frontend Development'],
+    description: [
+      'Converted existing React Web Application to a Micro Frontend App using Single SPA',
+    ],
+  },
+];

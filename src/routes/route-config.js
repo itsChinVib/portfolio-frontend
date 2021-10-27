@@ -2,6 +2,7 @@ import { ComingSoonPage } from 'pages/ComingSoon';
 import { ComponentListPage } from 'pages/ComponentList';
 import { HomePage } from 'pages/Home';
 import { ProjectsPage } from 'pages/Projects';
+import { TopcoderProfilePage } from 'pages/Topcoder';
 import { WorkExperiencePage } from 'pages/WorkExperience';
 
 export const routes = [
@@ -33,7 +34,7 @@ export const routes = [
     name: 'Topcoder',
     path: '/topcoder',
     exact: true,
-    component: ComingSoonPage,
+    component: TopcoderProfilePage,
   },
   {
     name: 'Open Source Contributions',

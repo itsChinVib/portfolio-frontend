@@ -29,6 +29,7 @@ export const internshipItemStyles = makeStyles(theme => ({
     flexDirection: 'column',
     color: theme.palette.secondary.main,
     textDecoration: 'underline',
+    justifyContent: 'center',
   },
   secondaryLink: {
     color: theme.palette.primary.main,
@@ -71,6 +72,7 @@ export const freelanceProjectStyles = makeStyles(theme => ({
     flexDirection: 'column',
     color: theme.palette.secondary.main,
     textDecoration: 'underline',
+    justifyContent: 'center',
   },
   secondaryLink: {
     color: theme.palette.primary.main,
@@ -113,6 +115,50 @@ export const projectStyles = makeStyles(theme => ({
     flexDirection: 'column',
     color: theme.palette.secondary.main,
     textDecoration: 'underline',
+    justifyContent: 'center',
+  },
+  secondaryLink: {
+    color: theme.palette.primary.main,
+  },
+  mobile: {
+    justifyContent: 'center',
+  },
+  techStack: {
+    fontSize: 18,
+    margin: 10,
+  },
+}));
+
+export const topcoderItemStyles = makeStyles(theme => ({
+  componentWrapper: {
+    borderWidth: 1,
+    borderRadius: 8,
+    borderStyle: 'solid',
+    borderColor: theme.palette.secondary.main,
+    margin: '10px 20px',
+    padding: 40,
+  },
+  mobileComponentWrapper: {
+    padding: 20,
+  },
+  secondary: {
+    backgroundColor: theme.palette.secondary.main,
+  },
+  positionWrapper: {},
+  headingWrapper: {
+    display: 'flex',
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+  },
+  titleWrapper: {
+    fontSize: 24,
+  },
+  linksList: {
+    display: 'flex',
+    flexDirection: 'column',
+    color: theme.palette.secondary.main,
+    textDecoration: 'underline',
+    justifyContent: 'center',
   },
   secondaryLink: {
     color: theme.palette.primary.main,
