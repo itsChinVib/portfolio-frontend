@@ -365,10 +365,12 @@ export const personalProjects = [
   {
     title: 'Image Blur Detection',
     date: 'Jun 2020',
-    links: {
-      label: 'Github',
-      url: 'https://github.com/chinvib66/non-blur-images',
-    },
+    links: [
+      {
+        label: 'Github',
+        url: 'https://github.com/chinvib66/non-blur-images',
+      },
+    ],
     description:
       'The project detects blur in image provided, using variance of laplacian of the single channel image. If variance is below a set threshold, then image is determined to be blurry. The Project includes a web application as well as a CLI Application for indentifying blur image.',
     techUsed: ['OpenCV', 'CLI', 'Python', 'Image Processing'],
@@ -376,10 +378,12 @@ export const personalProjects = [
   {
     title: 'Duplicate Image Remover',
     date: 'Jul 2020',
-    link: {
-      label: 'Github',
-      url: 'https://github.com/chinvib66/detect-duplicate-img',
-    },
+    links: [
+      {
+        label: 'Github',
+        url: 'https://github.com/chinvib66/detect-duplicate-img',
+      },
+    ],
     description:
       "A CLI tool for detecting and removing duplicate images from a folder. The tool uses image hashing, specifically 'Difference Hashing' to identify the duplicates in folder.",
     techUsed: ['OpenCV', 'CLI', 'Python', 'Image Processing'],
@@ -387,10 +391,12 @@ export const personalProjects = [
   {
     title: 'Express MySQL REST API Starter',
     date: 'Feb 2019',
-    link: {
-      label: 'Github',
-      url: 'https://github.com/chinvib66/express-mysql-rest-api',
-    },
+    links: [
+      {
+        label: 'Github',
+        url: 'https://github.com/chinvib66/express-mysql-rest-api',
+      },
+    ],
     description:
       'Personal Starter kit for Express.js + MySQL + REST API projects. Implements Auth using JWT Token based Authentication. This project was a learning project for practicing concepts of Express, MySQL, Sequelize, JWT Authentication.',
     techUsed: ['Node.js', 'MySQL', 'REST APIs'],
@@ -401,7 +407,12 @@ export const personalProjects = [
     date: 'Nov 2018',
     description:
       'Built a Bulletin Board using ReactJS. The Board pre-populates 50 notes with data from the api of a lorem ipsum generator. The notes are draggabe and rearrangable. This project was a learning project to master concepts of ReactJS like states, props, components, children.',
-    link: { label: 'Link', url: 'https://chinvib66.github.io/react-bulletin/' },
+    links: [
+      {
+        label: 'Link',
+        url: 'https://chinvib66.github.io/react-bulletin/',
+      },
+    ],
     techUsed: ['React', 'Node.js', 'REST APIs'],
     relatedTerms: ['Frontend Development', 'API Integration'],
   },
@@ -410,7 +421,12 @@ export const personalProjects = [
     date: 'Jul 2018',
     description:
       'AMessagi is an anonymous messaging platform. Any Anonymous user can send messages to any registerd user with a unique address. This project was a learning project for practicing concepts of Django, MySQL, User Authentication, HTTP Sessions and Cookies.',
-    link: { label: 'Github', url: 'https://github.com/chinvib66/amessagi' },
+    links: [
+      {
+        label: 'Github',
+        url: 'https://github.com/chinvib66/amessagi',
+      },
+    ],
     techUsed: ['Python', 'Django', 'MySQL'],
     relatedTerms: ['Fullstack Development', 'Backend Development'],
   },
