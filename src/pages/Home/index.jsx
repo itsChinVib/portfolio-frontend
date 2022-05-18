@@ -32,11 +32,11 @@ export const HomePage = () => {
             Hi, I'm Chinmay. Nice to Meet You.
           </Typography>
           <Typography className={classes.briefContent}>
-            Currently I am a UG Student at{' '}
+            {/* Currently I am a UG Student at{' '}
             <b>Indian Institute of Technology, Kharagpur</b>, pursuing my{' '}
             <b>Dual Degree (B.Tech + M.Tech)</b> majoring in Mechanical
             Engineering.
-            <br />
+            <br /> */}
             As an aspiring <b>Developer</b>, I've done some freelancing
             projects, part time remote work for few startups, and collaborated
             with some talented people to create good product(s).

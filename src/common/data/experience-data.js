@@ -309,7 +309,7 @@ export const academicProjects = [
       {
         label: 'PlayStore',
         url: 'https://play.google.com/store/apps/details?id=com.smallcast',
-        hide: false,
+        hide: true,
       },
     ],
   },
@@ -543,6 +543,11 @@ export const topcoderProjects = [
       {
         label: 'Link',
         url: 'https://www.topcoder.com/challenges/0ba48ad2-6bda-406b-a430-ecdc4d6964aa',
+        hide: false,
+      },
+      {
+        label: 'Article',
+        url: 'https://www.topcoder.com/thrive/articles/edgenet-shoe-classification-web-application-challenge-solution-writeup',
         hide: false,
       },
     ],

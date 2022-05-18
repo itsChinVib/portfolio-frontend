@@ -102,6 +102,20 @@ export const SideBarComponent = ({ children, show, onHide }) => {
                 </a>
               </div>
             </div>
+            <div>
+              <div>
+                <Typography className={classes.sectionTitle}>
+                  Other Links
+                </Typography>
+              </div>
+              <div>
+                <Link to={'donate'} onClick={hideBar}>
+                  <Typography className={classes.linkTextWrapper}>
+                    Tips and Donations
+                  </Typography>
+                </Link>
+              </div>
+            </div>
           </Container>
           <div onClick={hideBar} className={classes.componentBack}></div>
         </>

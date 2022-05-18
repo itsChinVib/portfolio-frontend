@@ -36,6 +36,7 @@ export const footerStyles = makeStyles(theme => ({
     minHeight: '20vh',
     display: 'flex',
     alignItems: 'center',
+    marginTop: 'auto',
   },
   icon: {
     maxHeight: 72,

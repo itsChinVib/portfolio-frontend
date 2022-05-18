@@ -1,5 +1,6 @@
 import { ComingSoonPage } from 'pages/ComingSoon';
 import { ComponentListPage } from 'pages/ComponentList';
+import { DonatePage } from 'pages/Donate';
 import { HomePage } from 'pages/Home';
 import { ProjectsPage } from 'pages/Projects';
 import { TopcoderProfilePage } from 'pages/Topcoder';
@@ -42,11 +43,12 @@ export const routes = [
     exact: true,
     component: ComingSoonPage,
   },
-  //   {
-  //     name: "Blog",
-  //     path: "/blog",
-  //     exact: true,
-  //   },
+  {
+    name: 'Donate',
+    path: '/donate',
+    exact: true,
+    component: DonatePage,
+  },
   //   {
   //     name: "View Blog",
   //     path: "/blog/:id",
