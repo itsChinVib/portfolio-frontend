@@ -32,17 +32,18 @@ export const HomePage = () => {
             Hi, I'm Chinmay. Nice to Meet You.
           </Typography>
           <Typography className={classes.briefContent}>
-            {/* Currently I am a UG Student at{' '}
-            <b>Indian Institute of Technology, Kharagpur</b>, pursuing my{' '}
-            <b>Dual Degree (B.Tech + M.Tech)</b> majoring in Mechanical
-            Engineering.
-            <br /> */}
+            I am a Mobile Developer at{' '}
+            <b>Honeywell Technology Solutions Lab Pvt. Ltd.</b>
+            <br />I graduated from{' '}
+            <b>Indian Institute of Technology, Kharagpur</b>, with{' '}
+            <b>Dual Degree (B.Tech + M.Tech)</b> in Mechanical Engineering.
+            <br />
             As an aspiring <b>Developer</b>, I've done some freelancing
             projects, part time remote work for few startups, and collaborated
             with some talented people to create good product(s).
             <br />I regularly compete on <b>Topcoder</b>, <b>Kaggle</b> and
-            currently busy absorbing knowledge in field of <b>Deep Learning</b>,{' '}
-            <b>Computer Vision</b>.
+            increase my knowledge in field of <b>Deep Learning</b>,{' '}
+            <b>Computer Vision</b> in my free time.
             <br />
           </Typography>
         </div>
@@ -88,6 +89,9 @@ export const HomePage = () => {
         </Typography>
         <Container className={classes.textCenter}>
           <ul className={classes.expHighlightList}>
+            <li className={classes.expHighlightItem}>
+              Topcoder Open 2022 Finalist (TCO22)
+            </li>
             <li className={classes.expHighlightItem}>
               Google Summer of Code 2021 @ Dept of BioInformatics, Emory
               University School of Medicine

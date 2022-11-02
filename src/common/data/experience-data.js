@@ -24,8 +24,8 @@ export const frontPageSkillsExpertise = {
     'Linux',
   ],
   competent: [
-    'Java',
-    'Spring Boot',
+    'C#',
+    'Xamarin',
     'Kubernetes',
     'Android',
     'NLP',
@@ -61,6 +61,7 @@ export const fullSkillsList = {
     'Node.js',
     'SQL',
     'C++',
+    'C#',
     'Go',
     'C',
     'PHP',
@@ -78,6 +79,7 @@ export const fullSkillsList = {
     'Socket.io',
     'Ionic',
     'Celery',
+    'Xamarin',
     'WebSocket',
     'PyTest',
     'Jest',
@@ -439,6 +441,160 @@ export const tcChType = {
 };
 
 export const topcoderProjects = [
+  {
+    name: 'License OCR Project API Development',
+    date: '1 May 2022',
+    type: tcChType.f2f,
+    links: [
+      {
+        label: 'Link',
+        url: 'https://www.topcoder.com/challenges/06e7a1e6-57f8-416e-be46-f882fb0b2096',
+        hide: false,
+      },
+    ],
+    techUsed: [
+      'NestJS',
+      'Prisma',
+      'Typescript',
+      'Typescript',
+      'Google Computer Vision API',
+    ],
+    relatedTerms: [
+      'REST Api',
+      'Typescript',
+      'Typescript',
+      'Prisma',
+      'Docker',
+      'Docker Compose',
+      'Google Cloud Vision API',
+      'Computer Vision',
+      'OCR',
+    ],
+    description: [
+      'Developed CRUD Api for OCR from License Images and integrated Google Cloud Vision OCR Api',
+    ],
+  },
+  {
+    name: 'Python Calculation Packages - AWS Lambda Warm up',
+    date: '5 April 2022',
+    type: tcChType.f2f,
+    links: [
+      {
+        label: 'Link',
+        url: 'https://www.topcoder.com/challenges/dad57362-3684-4b49-9094-716ffd87180e',
+        hide: false,
+      },
+    ],
+    techUsed: ['AWS Lambda', 'Eventbridge', 'Python'],
+    relatedTerms: ['Decorator', 'Lambda', 'Eventbridge', 'AWS'],
+    description: [
+      'Implemented warmup functionality for AWS Lambdas, triggered by AWS Eventbridge using custom python decorator',
+    ],
+  },
+  {
+    name: 'Language Identification Improvement & API Python Challenge',
+    date: '24 Feb 2022 - 6 Mar 2022',
+    type: tcChType.dev,
+    links: [
+      {
+        label: 'Link',
+        url: 'https://www.topcoder.com/challenges/d7731cb4-99ec-42e3-bc2a-7d476109c7eb',
+        hide: false,
+      },
+    ],
+    techUsed: ['Python', 'NLP', 'FastAPI'],
+    relatedTerms: [
+      'REST APIs',
+      'NLP',
+      'Docker',
+      'CLI',
+      'Command Line Interface',
+    ],
+    description: [
+      'Improved the performance of provided Language Identification Algorithm (for English, Hindi, Spanish) and implemented a REST Api for consuming the algorithm',
+      'Achieved perfect punctuation removal accuracy, perfect non-language token identification and input violation detection for spanish hindi input combination; thus improving the overall ROC AUC score by 15.59%',
+    ],
+  },
+  {
+    name: 'Odyssey Business Services - Subscription Management API Integration',
+    date: '14 Nov 2021',
+    type: tcChType.f2f,
+    links: [
+      {
+        label: 'Link',
+        url: 'https://www.topcoder.com/challenges/b2acdd82-cec6-475f-8859-3205f1a9c367',
+        hide: false,
+      },
+    ],
+    techUsed: ['ExpressJS', 'React JS', 'API Integration'],
+    relatedTerms: ['Workflow', 'Mock API', 'Lint'],
+    description: [
+      'Developed mock api with provided response schema and integrated the mock api with fromtend application workflow flow',
+    ],
+  },
+  {
+    name: 'DI Wallet - Fix Verifiable Credential QRCode Scan App Crash in Android',
+    date: '11 Nov 2021',
+    type: tcChType.f2f,
+    links: [
+      {
+        label: 'Link',
+        url: 'https://www.topcoder.com/challenges/cfe13f9c-7db8-4528-9f5b-80264ed21319',
+        hide: false,
+      },
+    ],
+    techUsed: ['Blockchain', 'React Native', 'Android'],
+    relatedTerms: ['Indy', 'Blockchain', 'React', 'Javascript'],
+    description: [
+      'Identified root cause for major app crash in blockchain wallet application and proposed possible solutions for the crash',
+    ],
+  },
+  {
+    name: 'USM - AWS Lambda Linux 2 support',
+    date: '2 Nov 2021',
+    type: tcChType.f2f,
+    links: [
+      {
+        label: 'Link',
+        url: 'https://www.topcoder.com/challenges/e2cbc00f-5849-45f6-a3c2-290ce771d32e',
+        hide: false,
+      },
+    ],
+    techUsed: ['AWS Lambda', 'Java', 'Selenium'],
+    relatedTerms: [
+      'AWS',
+      'Cloudformation',
+      'Lighthouse',
+      'Java',
+      'Maven',
+      'API',
+      'Lambda',
+      'Elasticsearch',
+      'Docker',
+      'Tests',
+      'Chrome',
+    ],
+    description: [
+      'Upgraded deployment to support newer AWS Lambda Runtime and identified root cause for failing tests',
+    ],
+  },
+  {
+    name: 'Credence - Android deployment instructions and video',
+    date: '28 Oct 2021',
+    type: tcChType.f2f,
+    links: [
+      {
+        label: 'Link',
+        url: 'https://www.topcoder.com/challenges/2f01aec9-a1db-4e6f-b4fb-d5e89ffaea65',
+        hide: false,
+      },
+    ],
+    techUsed: ['React Native', 'Android', 'Typescript'],
+    relatedTerms: ['React Native', 'Android', 'Typescript', 'Windows'],
+    description: [
+      'Fixed build errors, optimised app build workflow and documented + videographed the build and run process of the react native application',
+    ],
+  },
   {
     name: 'Olive Build and Distribute RN App using MS App Center',
     date: '4 Oct 2021',
