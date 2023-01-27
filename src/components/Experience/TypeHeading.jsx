@@ -12,7 +12,7 @@ export const ExperienceTypeHeading = ({ title, subtitle, secondary }) => {
         [classes.secondaryBack]: secondary,
       })}
     >
-      <Typography variant={'h3'}>{title}</Typography>
+      <Typography variant={'h4'}>{title}</Typography>
       <Typography variant={'subtitle1'}>{subtitle}</Typography>
     </div>
   );

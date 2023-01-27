@@ -12,6 +12,7 @@ import { SkillListItem } from 'components/SkillListItem';
 import { SideBarComponent } from 'components/Sidebar';
 import { internships } from 'common/data/experience-data';
 import { InternshipItem } from 'components/Experience/Internship';
+import { TabbedExperienceLayout } from 'components/Experience/TabbedExperienceLayout';
 
 const ComponentItem = ({ name, Component, componentProps }) => {
   const classes = componentStyle();
@@ -27,10 +28,22 @@ const ComponentItem = ({ name, Component, componentProps }) => {
   );
 };
 
+const tabData = [
+  { label: 'T1', content: <div>T1</div> },
+  { label: 'T2', content: <div>T2</div> },
+];
+
 export const ComponentListPage = () => {
   const classes = componentStyle();
 
   const components = [
+    {
+      name: 'TabbedExpLayout',
+      Component: () => {
+        return <TabbedExperienceLayout data={tabData} />;
+      },
+    },
+
     {
       name: 'InternshipItem',
       Component: () => {

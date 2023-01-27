@@ -174,7 +174,7 @@ export const topcoderItemStyles = makeStyles(theme => ({
 
 export const expTypeHeadingStyles = makeStyles(theme => ({
   componentWrapper: {
-    minHeight: '30vh',
+    minHeight: '15vh',
   },
   flexCenter: {
     display: 'flex',
@@ -184,5 +184,14 @@ export const expTypeHeadingStyles = makeStyles(theme => ({
   },
   secondaryBack: {
     backgroundColor: theme.palette.secondary.main,
+  },
+}));
+
+export const tabbedExpLayoutStyles = makeStyles(theme => ({
+  tabsWrapper: {
+    marginTop: '5vh',
+  },
+  label: {
+    fontSize: 24,
   },
 }));

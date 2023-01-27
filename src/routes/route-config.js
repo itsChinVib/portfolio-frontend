@@ -3,6 +3,7 @@ import { ComponentListPage } from 'pages/ComponentList';
 import { DonatePage } from 'pages/Donate';
 import { HomePage } from 'pages/Home';
 import { ProjectsPage } from 'pages/Projects';
+import { TabbedWorkExperiencePage } from 'pages/TabbedExperience';
 import { TopcoderProfilePage } from 'pages/Topcoder';
 import { WorkExperiencePage } from 'pages/WorkExperience';
 
@@ -22,6 +23,12 @@ export const routes = [
   {
     name: 'Work Experience',
     path: '/work-experience',
+    exact: true,
+    component: TabbedWorkExperiencePage,
+  },
+  {
+    name: 'Old Work Experience',
+    path: '/old-work-experience',
     exact: true,
     component: WorkExperiencePage,
   },
