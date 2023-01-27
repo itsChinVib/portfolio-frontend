@@ -54,6 +54,7 @@
     ]
   },
   "devDependencies": {
+    "caniuse-lite": "^1.0.30001449",
     "prettier": "^2.4.1",
     "redux-devtools-extension": "^2.13.9",
     "redux-logger": "^3.0.6",

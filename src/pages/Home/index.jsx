@@ -97,6 +97,7 @@ export const HomePage = () => {
               <a
                 href="https://tco22.topcoder.com/competition/first2finish?tracks[f2f-tabs]=3&tracks[f2f-tco22]=1"
                 target={'_blank'}
+                rel="noreferrer"
               >
                 Topcoder Open 2022 Finalist (TCO22)
               </a>
