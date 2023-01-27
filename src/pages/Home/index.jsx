@@ -32,7 +32,7 @@ export const HomePage = () => {
             Hi, I'm Chinmay. Nice to Meet You.
           </Typography>
           <Typography className={classes.briefContent}>
-            I am a Mobile Developer at{' '}
+            I am a <b>Software Developer II</b> at{' '}
             <b>Honeywell Technology Solutions Lab Pvt. Ltd.</b>
             <br />I graduated from{' '}
             <b>Indian Institute of Technology, Kharagpur</b>, with{' '}
@@ -90,24 +90,24 @@ export const HomePage = () => {
         <Container className={classes.textCenter}>
           <ul className={classes.expHighlightList}>
             <li className={classes.expHighlightItem}>
-              Topcoder Open 2022 Finalist (TCO22)
+              Software Developer II at Honeywell Technology Solutions Lab Pvt
+              Ltd
+            </li>
+            <li className={classes.expHighlightItem}>
+              <a
+                href="https://tco22.topcoder.com/competition/first2finish?tracks[f2f-tabs]=3&tracks[f2f-tco22]=1"
+                target={'_blank'}
+              >
+                Topcoder Open 2022 Finalist (TCO22)
+              </a>
             </li>
             <li className={classes.expHighlightItem}>
               Google Summer of Code 2021 @ Dept of BioInformatics, Emory
               University School of Medicine
             </li>
             <li className={classes.expHighlightItem}>
-              Software Development Intern @ GE Healthcare
-            </li>
-            <li className={classes.expHighlightItem}>
               Edgenet Shoe Detection and Classification Application (1st Place
               Solution) @ Topcoder
-            </li>
-            <li className={classes.expHighlightItem}>
-              Smallcast: Stop Searching, Start Listening!! on PlayStore
-            </li>
-            <li className={classes.expHighlightItem}>
-              Deep Learning Specialization @ Deeplearning.ai (via Coursera)
             </li>
           </ul>
         </Container>

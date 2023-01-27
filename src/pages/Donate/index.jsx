@@ -101,7 +101,7 @@ export const DonatePage = () => {
               </Tooltip>
             </Box>
             <Typography style={{ textAlign: 'center', fontSize: 18 }}>
-              Note that these donations are self voluntary. They are
+              Note that these donations are voluntary. They are
               non-refundable under any circumstances.
             </Typography>
             <Typography style={{ textAlign: 'center', fontSize: 18 }}>
