@@ -2,7 +2,7 @@ name: GH Pages CI/CD
 
 on:
   push:
-    branches: [main]
+    branches: [main, feature/dev]
   pull_request:
     branches: [main]
 
@@ -12,7 +12,7 @@ jobs:
 
     strategy:
       matrix:
-        node-version: [14.x]
+        node-version: [18.x]
 
     steps:
       - name: Checkout repository
